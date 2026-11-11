@@ -1,0 +1,11 @@
+asur@clean:~$ sh ps_ax.sh | head -10
+    PID    PPID STATE COMMAND
+      1       0 S     /sbin/init
+      2       0 S     [kthreadd]
+      3       2 S     [pool_workqueue_release]
+      4       2 I     [kworker/R-rcu_g]
+      5       2 I     [kworker/R-rcu_p]
+      6       2 I     [kworker/R-slub_]
+      7       2 I     [kworker/R-netns]
+     12       2 I     [kworker/R-mm_pe]
+     13       2 I     [rcu_tasks_kthread]
